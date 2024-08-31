@@ -36,7 +36,7 @@ const Productdisplay = (props) => {
           
            </div>
            <div className="productdisplay-right-description">
-           Discover the latest trends and timeless styles at Clothfor. Shop high-quality clothing and accessories for every occasion. Elevate your wardrobe with our curated collections.
+           Discover the latest trends and timeless styles at Clothfor. <br/>Shop high-quality clothing and accessories for every occasion.<br/> Elevate your wardrobe with our curated collections.
            </div>
            <div className="productdisplay-right-size">
             <h1>Select size</h1>

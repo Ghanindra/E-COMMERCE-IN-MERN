@@ -13,15 +13,87 @@
 }
 .new-collection hr{ 
     width:15rem;
-    height:1rem;
+    height:0.4rem;
     border-radius:2rem;
     background:#252525;
-    margin-top:-30px;
+    margin-top:-15px;
 }
 .collections{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top:50px;
     gap:50px;
+
+}
+@media(max-width:1280px){
+ 
+    .new-collection h1{
+        font-size:2rem;
+    }
+    .new-collection hr{
+        width:10rem;
+        height:0.4rem;
+    }
+    .collections{
+        gap:1rem;
+        margin-top:3rem;
+        width:80%;
+
+    }
+}
+@media(max-width:1024px){
+    
+    .new-collection h1{
+        font-size:1.6rem;
+    }
+    .new-collection hr{
+        width:8rem;
+        height:0.4rem;
+    }
+    .collections{
+        gap:0.9rem;
+        margin-top:2rem;
+        width:80%;
+
+    }
+}
+@media(max-width:800px){
+    .new-collection{
+      
+       gap:0.6rem;
+    }
+    .new-collection h1{
+        font-size:1.4rem;
+    }
+    .new-collection hr{
+        width:6rem;
+        height:0.3rem;
+    }
+    .collections{
+        gap:0.5rem;
+      
+        width:100%;
+
+    }
+    .collections .item p{
+        font-size:9px;
+    }
+    .collections .item-price-old{
+        font-size:15px;
+    }
+    .collections .item-price-new{
+        font-size:15px;
+    }
+}
+@media(max-width:500px){
+ 
+ .collections{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+ }  
+ .collections .item{
+    width:80%;
+ }
 
 }

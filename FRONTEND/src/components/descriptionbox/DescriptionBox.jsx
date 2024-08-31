@@ -8,7 +8,8 @@ const DescriptionBox = () => {
             <div className="description-nav-box">
                 Description
             </div>
-            <div className="description-nav-fade"> Reviews (124)</div>
+            <div className="description-nav-fade"> Reviews 
+              (124)</div>
 
          </div>
          <div className="descriptionbox-description">

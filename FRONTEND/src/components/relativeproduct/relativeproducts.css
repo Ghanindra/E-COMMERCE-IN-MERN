@@ -1,4 +1,4 @@
-/* relativeproducts.css */
+/* .relativeproducts.css */
 
 .relativeproducts {
     background-color: #ffffff;
@@ -41,3 +41,33 @@
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
   }
   
+
+@media(max-width:500px){
+ .relativeproducts{
+    height:90vh;
+ } 
+ .relatedproduct-items{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+    width:115%;
+ }  
+ .relativeproducts hr{
+  width:6rem;
+  height:0.3rem;
+  margin-left:100px;
+  margin-top:-5px;
+}
+.relatedproduct-items .item p{
+  font-size: 10px;
+}
+.relatedproduct-items .item-prices{
+  gap:6px;
+}
+.relatedproduct-items .item-price-old{
+  font-size:11px;
+}
+.relatedproduct-items .item-price-new{
+  font-size:15px;
+}
+}

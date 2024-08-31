@@ -45,4 +45,40 @@
   .descriptionbox-description p + p {
     margin-top: 15px;
   }
-  
+
+  @media(max-width:1280px){
+    .descriptionbox{
+      margin-left:127px;
+    }
+    .description-nav-fade{
+      margin-right:731px;
+    }
+  }
+  @media(max-width:1024px){
+   
+    .description-nav-fade{
+      margin-right:543px;
+    }
+  }
+  @media(max-width:800px){
+    .descriptionbox{
+      margin-left:100px;
+    }
+    .description-nav-fade{
+      margin-right:360px;
+    }
+    .descriptionbox-description p{
+      font-size:14px;
+    }
+  }
+  @media(max-width:500px){
+    .descriptionbox{
+      margin-left: 60px;
+    }
+    .description-nav-fade{
+      margin-right:100px;
+    }
+    .descriptionbox-description p{
+      font-size:14px;
+    }
+  }
